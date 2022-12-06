@@ -1,27 +1,28 @@
 # Addition of two numbers
 def add(x, y):
-    return x + y
-
+   
+   return x + y
 
 # Subtraction of two numbers
 def subtract(x, y):
+    
     return x - y
-
 
 # Multiplication of two numbers
 def multiply(x, y):
+    
     return x * y
-
 
 # Division of two numbers
 def divide(x, y):
+    
     return x / y
 
 print("Welcome to Stanley simple calculator.")
 print("Please select operation:")
 print("1.Addition Arithmetic")
-print("2.Subtract Arithmetic")
-print("3.Multiply Arithmetic")
+print("2.Subtraction Arithmetic")
+print("3.Multiplication Arithmetic")
 print("4.Division Arithmetic")
 
 while True:
