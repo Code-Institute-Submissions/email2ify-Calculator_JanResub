@@ -138,9 +138,7 @@ This calculator is created to have a simple and plain arithmetic operator using 
 <p>Open GitHub and then you go to the setting tap and from the setting tap to the pages, select the main or master work for the development</p>
 </ul>
 
-<ul>
-<p>The main or master branch been selected, the page will refresh with a detailed ribbon display to indicate the successful deployment.</p>
-</ul>
+
   
  
 <h2><Strong>Credits</strong></h2>
