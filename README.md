@@ -57,7 +57,7 @@ This calculator is created to have a simple and plain arithmetic operator using 
    <h2><Strong>Bugs & Fixes</strong></h2>
 
 <ul>
-<p>I had bugs and  it was challenging trying to figure out through all the various functions and loops.</p>
+<p>I had bugs and I was able to figure out the errors of the functions and loops.</p>
 </ul>
   
   
@@ -78,15 +78,15 @@ This calculator is created to have a simple and plain arithmetic operator using 
  </p>
 </ul>
 <ul>
-<p>Ensure all code is ready for deployment.</p>
- <p>Log into or sign up to Heroku</p>
+<p>Make sure the code is ready for deployment.</p>
+ <p>Log into Heroku</p>
 </ul>
 <ul>
-<p>From Dashboard click "New" and select "create new app" from the drop-down menu.</p>
+<p>From Dashboard click on "New" and select "create new app" from the drop-down menu.</p>
 </ul>
 
 <ul>
-<p>Choose a unique but available name for your app and select your region.</p>
+<p>Choose available name or a special name for your app and select your region.</p>
 </ul>
   
 </ul>
@@ -95,7 +95,7 @@ This calculator is created to have a simple and plain arithmetic operator using 
  <p>Navigate to "Settings" and scroll down to "build packs".</p>
 </ul>
 <ul>
-<p>Click "build packs" and then click both "python" and "node.js". Please note node.js is needed for the mock terminal and must be BELOW python on the list. they can be clicked and dragged to move.</p>
+<p>Click on "build packs" and then click both "python" and "node.js". Node.js is needed for the mock terminal and must be BELOW python on the list and they can be clicked and dragged to move up or down.</p>
 </ul>
 
 <ul>
@@ -111,16 +111,16 @@ This calculator is created to have a simple and plain arithmetic operator using 
 </ul>
   
   <ul>
-<p>Search for your GitHub repository name, and select the correct repository.</p>
+<p>Search for your GitHub repository name, and select the repository name .</p>
 </ul>
   
   <ul>
-<p>For Deployment there are two options, Automatic Deployments or Manual.</p>
+<p>For Deployment there are two options,  Manual or Automatic Deployments .</p>
 </ul>
   <ul>  
-(Automatic Deployment: This will prompt Heroku to re-build your app each time you push your code to GitHub.)
+(Manual Deployment: This will allow Heroku to build your app when you manually tell it to do so.)
+(Automatic Deployment: This will allow Heroku to re-build your app each time you push your code to GitHub.)
 
-(Manual Deployment: This will only prompt Heroku to build your app when you manually tell it to do so.)
 </ul>
      
  <ul>
@@ -131,20 +131,18 @@ This calculator is created to have a simple and plain arithmetic operator using 
  </p>
 </ul>
 <ul>
-<p>Source code is hosted on GitHub and deployed using Git Pages.</p>
+<p>A source code is hosted on GitHub and deployed using Git Pages.</p>
  <p>Used to commit and push code during the development on the Website</p>
 </ul>
 <ul>
-<p>Open GitHub and then you go to the setting tap and from the setting tap to the pages, select the main or master work for the development</p>
+<p>Open the GitHub and then you go to the setting tap and from the setting tap to the pages, select the main or master work</p>
 </ul>
 
 
-  
- 
-<h2><Strong>Credits</strong></h2>
+ <h2><Strong>Credits</strong></h2>
 
 <ul>
-<li> Simple Calculator made easy tutorial <a href="https://www.youtube.com/watch?v=5_CAo_C523g" target="_blank">YouTube
+<li> A simple Calculator made easy tutorial <a href="https://www.youtube.com/watch?v=5_CAo_C523g" target="_blank">YouTube
 </ul>
 
 <ul>
@@ -152,7 +150,7 @@ This calculator is created to have a simple and plain arithmetic operator using 
 </ul>
 
   <ul>
-<li>Flow Control <a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CPP_06_20+2020_T1/courseware/f780287e5c3f4e939cd0adb8de45c12a/4d5932e873e14e9da4efbe93818b1a8d/?child=last" target="_blank">Code Institute</a>
+<li>Tutorial <a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CPP_06_20+2020_T1/courseware/f780287e5c3f4e939cd0adb8de45c12a/4d5932e873e14e9da4efbe93818b1a8d/?child=last" target="_blank">Code Institute</a>
 </ul>
 
 
