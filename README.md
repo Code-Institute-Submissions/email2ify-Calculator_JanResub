@@ -150,7 +150,8 @@ This calculator is created to have a simple and plain arithmetic operator using 
 </ul>
 
   <ul>
-<li>Function Tutorial <a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CPP_06_20+2020_T1/courseware/272f493b4d57445fbd634e7ceca3a98c/6327affd7b854149baab0d0fc59a2fcf/" target="_blank">Code Institute</a>
+  <ul>
+<li>Function Tutorial <a href="https://www.youtube.com/watch?v=_gujNhpc0HQ&t=1s" target="_blank">Code Institute</a>
 </ul>
 
 
