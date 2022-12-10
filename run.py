@@ -1,21 +1,25 @@
 # subtraction of two numbers
-def subtract(x, y):
-    return x - y
+def subtract(x, y): 
+     sum = x - y
+     return sum
+    
 
 # addition of two numbers
 def add(x, y):
-    return x + y
+    sum = x + y
+    return sum
 
 
 # multiplication of two numbers
 def multiply(x, y):
-    return x * y
-
+    sum = x * y
+    return sum
 
 # division of two numbers
 def divide(x, y):
-    return x / y
-
+    sum = x / y
+    return sum
+    
 
 print("Welcome to Stanley's plain calculator.")
 print("Please select operation:")
