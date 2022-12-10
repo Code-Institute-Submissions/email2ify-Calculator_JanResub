@@ -15,18 +15,28 @@ This calculator is created to have a simple and plain arithmetic operator using 
 ![image](/docs/python1.PNG)
 
 
-<h2><Strong>Validator Syntax checker</strong></h2>
-<p>Python errors free and pass through the Python Validator Syntax checker. Below is the outcome.
-</p>
-  
-  <h4><Strong>For Python code Validator result</strong></h4>
-
-<ul>
-<li><a href="https://extendsclass.com/python-tester.html/#validate_by_input" target="_blank">Python Syntax Checker
+<li>Validator Syntax checker</li>
 </ul>
 
 
- ![image](/docs/python3.PNG)
+<p>Python errors free and pass through the Python Validator Syntax checker. Below is the outcome.
+
+  
+  <h4><Strong>For Python code Validator result</strong></h4>
+
+-[Python Syntax Checker](https://extendsclass.com/python-tester/#validate_by_input/)
+
+
+![image](/docs/python3.PNG)
+
+
+<h2><Strong>Testing</strong></h2>
+
+<p>
+This calculator is created to have it simple and plain arithmetic calculator using the python langauge and I have tested the operations within the 1 to 4 operational digits and the outcome of it. I have tested the multiplication operation,additional operation,subtrational operation and the divisional operation using an example number of 15 by 85 and the correct answers pop up one after the other on the request to "Try again ?" on all four of the arithmetic operators, and each time a calculation is excuted, a "Try again? (y/n):" question statement is given if you want to continue with a new calculation with a Yes or No feedback. If 'y', the plain calculator will be given statement below as "Enter digit within operation:" and if 'n' a statement will also display "Goodbye or would you like to try again?", so it is now up to the user to choose either 'y' or 'n' to proceed or not.</p>
+
+
+![image](/docs/testing.PNG)
  
  
 <h2><Strong>Goals</strong></h2>
@@ -39,19 +49,18 @@ This calculator is created to have a simple and plain arithmetic operator using 
   
   <h2><Strong>Technologies</strong></h2>
 
- <ul>
-<li><a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">Python
-</ul>
+  -[GitHub](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+ 
  
    <h2><Strong>Other</strong></h2>
   
- <ul>
-<li><a href="https://github.com/" target="_blank">GitHub
-</ul>
+-[Python](https://github.com/)
+
+ 
+ -[Heroku](https://github.com/)
   
-  <ul>
-<li><a href="https://www.heroku.com/github-students/signup"_blank">Heroku
-</ul>
+ 
   
   
    <h2><Strong>Bugs & Fixes</strong></h2>
@@ -70,9 +79,8 @@ This calculator is created to have a simple and plain arithmetic operator using 
 
 <h2><Strong>Deployment:</h2>
  
- <ul>
-<li><a href="https://www.heroku.com/github-students/signup"_blank">Heroku
-</ul
+-[Heroku](https://www.heroku.com/github-students/signup)
+
   
   
  </p>
@@ -121,13 +129,10 @@ This calculator is created to have a simple and plain arithmetic operator using 
 (Manual Deployment: This will allow Heroku to build your app when you manually tell it to do so.)
 (Automatic Deployment: This will allow Heroku to re-build your app each time you push your code to GitHub.)
 
-</ul>
-     
- <ul>
-<li><a href="https://github.com/" target="_blank">GitHub
-</ul
- 
- 
+</ul></p>
+
+-[GitHub](https://github.com/)
+
  </p>
 </ul>
 <ul>
@@ -138,20 +143,11 @@ This calculator is created to have a simple and plain arithmetic operator using 
 <p>Open the GitHub and then you go to the setting tap and from the setting tap to the pages, select the main or master work</p>
 </ul>
 
-
  <h2><Strong>Credits</strong></h2>
 
-<ul>
-<li> A simple Calculator made easy tutorial <a href="https://www.youtube.com/watch?v=5_CAo_C523g" target="_blank">YouTube
-</ul>
 
-<ul>
-<li> Arithmetic operators <a href="https://www.w3schools.com/python/gloss_python_arithmetic_operators.asp" target="_blank"> W3School</a>
-</ul>
+-[W3School](https://www.w3schools.com/python/gloss_python_arithmetic_operators.asp) Arithmetic operators
 
-  <ul>
-  <ul>
-<li>Function Tutorial <a href="https://www.youtube.com/watch?v=_gujNhpc0HQ&t=1s" target="_blank">Code Institute</a>
-</ul>
+-[Code Institute](https://www.youtube.com/watch?v=_gujNhpc0HQ&t=1s) Simple function tutorial using arithmetic
 
-
+-[YouTube](https://www.youtube.com/watch?v=5_CAo_C523g)  Calculator made easy tutoria
