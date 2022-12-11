@@ -67,7 +67,7 @@ This calculator is created to have it simple and plain arithmetic calculator usi
    <h2><Strong>Bugs & Fixes</strong></h2>
 
 <ul>
-<p>I had bugs and I was able to figure out the errors of the functions and loops.</p>
+<p>I had bugs, and trailing white spaces, blank errors, missing last line after the function was called. But I was able to figure out the errors by carefully following the intructions of the error lines and the loops. </p>
 </ul>
   
   
