@@ -35,8 +35,9 @@ This calculator is created to have a simple and plain arithmetic operator using 
 <p>
 This calculator is created to have it simple and plain arithmetic calculator using the python language and I have tested the operations within the 1 to 4 operational digits and the outcome of it. I have tested the multiplication operation, additional operation,subtration operation and divisional operation using an example number of 15 by 85 and the correct answers pop up one after the other on the request to "Try again ? y/n" on all four of the arithmetic operators. Each time a calculation is executed, a "Try again? (y/n):" question statement is given if you want to continue with a new calculation with a 'y'(Yes) or 'n'(No) feedback. If 'y', the plain calculator will be given a statement below as "Enter digit within the operation:" and if 'n' a statement will also display "Goodbye and have a nice day.", and statement is given "Enter 'e' code to exit:,this last operation will completely end the loop from running with the exit code 'e'. The user can either choose 'y' to continue the plain calculator or 'n' with a goodbye message and to proceed to the exiting of the plain calculator .</p>
 
+![image](/docs/testing1.PNG)
 
-![image](/docs/testing.PNG)
+
  
  
 <h2><Strong>Goals</strong></h2>
