@@ -1,67 +1,84 @@
-# subtraction of two numbers
-def subtract(x, y): 
-     sum = x - y
-     return sum
-    
+""" The functions of subtraction, addition
+    multiplication, division and global scope
+"""
+
+
+def subtract(num1, num2):
+    """subtract"""
+    result = num1 - num2
+    return result
+
 
 # addition of two numbers
-def add(x, y):
-    sum = x + y
-    return sum
+
+
+def add(num1, num2):
+    """addition"""
+    result = num1 + num2
+    return result
 
 
 # multiplication of two numbers
-def multiply(x, y):
-    sum = x * y
-    return sum
+
+
+def multiply(num1, num2):
+    """""multiplication"""""
+    result = num1 * num2
+    return result
 
 # division of two numbers
-def divide(x, y):
-    sum = x / y
-    return sum
-    
-
-print("Welcome to Stanley's plain calculator.")
-print("Please select operation:")
-print("1.Subtraction Arithmetic")
-print("2.Addition Arithmetic")
-print("3.Multiplication Arithmetic")
-print("4.Division Arithmetic")
-
-while True:
-    # user imput digit
-    select = input("Enter digit within operation:(1/2/3/4): ")
-
-    # The four options for the user to addition, subtraction, multiplication and division
-    if select in ('1', '2', '3', '4'):
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
-
-        if select == '1':
-            print(num1, "-", num2, "=", subtract(num1, num2))
 
 
-        elif select == '2':
-            print(num1, "+", num2, "=", add(num1, num2))
-
-        elif select == '3':
-            print(num1, "*", num2, "=", multiply(num1, num2))
-
-        elif select == '4':
-            print(num1, "/", num2, "=", divide(num1, num2))
+def divide(num1, num2):
+    """division"""
+    result = num1 / num2
+    return result
 
 
-        # To confirm if the user wants to do another calculation
-        while True:
-            # main program
+# ------- Global scope-------
+
+
+def main():
+    """function called in the global scope"""
+    print("Welcome to Stanley's plain calculator.")
+    print("Please select operation:")
+    print("1.Subtraction Arithmetic")
+    print("2.Addition Arithmetic")
+    print("3.Multiplication Arithmetic")
+    print("4.Division Arithmetic")
+
+    while True:
+        # user imput digit and the four options for the user
+        select = input("Enter digit within operation:(1/2/3/4): ")
+        # The four options for the user ()
+        if select in ('1', '2', '3', '4'):
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+            if select == '1':
+                print(num1, "-", num2, "=", subtract(num1, num2))
+            elif select == '2':
+                print(num1, "+", num2, "=", add(num1, num2))
+            elif select == '3':
+                print(num1, "*", num2, "=", multiply(num1, num2))
+            elif select == '4':
+                print(num1, "/", num2, "=", divide(num1, num2))
+            # To confirm if the user wants to do another calculation
             while True:
+                # main program
                 answer = str(input('Try again? (y/n): '))
-
                 if answer in ('y', 'n'):
-                   break
+                    break
                 print("invalid input.")
+
             if answer == 'y':
-                break
+                pass
             else:
-                print("Goodbye or would you try again?")
-                continue
+                print("Goodbye and have a nice day.")
+                choice = input("Enter 'e' code to exit: ")
+                if choice == 'e':
+                    break
+
+# run
+
+
+main()
