@@ -27,7 +27,7 @@ This calculator is created to have a simple and plain arithmetic operator using 
 -[Python Syntax Checker](https://extendsclass.com/python-tester/#validate_by_input/)
 
 
-![image](/docs/python3.PNG)
+![image](/docs/checker.PNG)
 
 
 <h2><Strong>Testing</strong></h2>
