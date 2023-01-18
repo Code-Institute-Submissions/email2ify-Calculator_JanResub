@@ -26,6 +26,7 @@ def multiply(num1, num2):
     result = num1 * num2
     return result
 
+
 # division of two numbers
 
 
@@ -52,31 +53,40 @@ def main():
         select = input("Enter digit within operation:(1/2/3/4): ")
         # The four options for the user ()
         if select in ('1', '2', '3', '4'):
-            num1 = float(input("Enter first number: "))
-            num2 = float(input("Enter second number: "))
-            if select == '1':
-                print(num1, "-", num2, "=", subtract(num1, num2))
-            elif select == '2':
-                print(num1, "+", num2, "=", add(num1, num2))
-            elif select == '3':
-                print(num1, "*", num2, "=", multiply(num1, num2))
-            elif select == '4':
-                print(num1, "/", num2, "=", divide(num1, num2))
-            # To confirm if the user wants to do another calculation
             while True:
-                # main program
-                answer = str(input('Try again? (y/n): '))
-                if answer in ('y', 'n'):
-                    break
-                print("invalid input.")
+                # try and get 2 numbers
+                try:
+                    num1 = float(input("Enter first number: "))
+                    num2 = float(input("Enter second number: "))
+        # if not numbers, throw exception
+                except Exception:
+                    print(
+                        "Invalid input, select correct numbers as specified")
+                    # Go back to start while loop
+                    continue
+                if select == '1':
+                    print(num1, "-", num2, "=", subtract(num1, num2))
+                elif select == '2':
+                    print(num1, "+", num2, "=", add(num1, num2))
+                elif select == '3':
+                    print(num1, "*", num2, "=", multiply(num1, num2))
+                elif select == '4':
+                    print(num1, "/", num2, "=", divide(num1, num2))
+                # To confirm if the user wants to do another calculation
+                while True:
+                    # main program
+                    answer = str(input('Try again? (y/n): '))
+                    if answer in ('y', 'n'):
+                        break
+                    print("invalid input.")
 
-            if answer == 'y':
-                pass
-            else:
-                print("Goodbye and have a nice day.")
-                choice = input("Enter 'e' code to exit: ")
-                if choice == 'e':
-                    break
+                if answer == 'y':
+                    pass
+                else:
+                    print("Goodbye and have a nice day.")
+
+                break
+
 
 # run
 
