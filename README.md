@@ -1,18 +1,46 @@
 <h1>#Plain Calculator</h1>
-This calculator is created to have a simple and plain arithmetic operator using the python langauge.
+This calculator is created to have a simple and plain arithmetic calculator operator using the python language.
+It is a simple basic calculator for online users for quick access to calculate numbers when they have no direct handy calculator nearby. The functions of this calculator applied are addition, subtraction, division, and multiplication for the performance of mathematical online computations.
 
 ![image](/docs/python2.PNG)
 
+<h2><Strong>Main Image:</strong></h2>
 
-<h2><Strong>Features:</strong></h2>
-<br>A plain calculator created <br/>
-
-
-<li>The Start Image</li>
+<li>Main Image: </li>
 </ul>
+
 <p> This image is the heruko front page of the plain calculator and it is showing the starting image.
 
 ![image](/docs/python1.PNG)
+
+
+
+<h2><Strong>Features:</strong></h2>
+
+<li>Addition function: </li>
+</ul>
+
+<p> This operation is in which the sum of two numbers or quantities is calculated positively. Joining two objects together typically gives it larger value.
+An example of addition is the following: 5 + 3 = 8. 
+The indicated symbol in the function is +
+
+<li> Subtraction function: </li>
+</ul>
+
+<p> A user can use this subtraction function in the calculator to subtract a group or number of things. When you subtract, what is left in the group becomes less. An example of subtraction is the following: 5 - 3 = 2.
+The indicated symbol in the function is -
+
+<li> Division function: </li>
+</ul>
+
+<p> The state of having a given number divided to give an equal number or products shared. An example of division is the following: 10 / 2 = 5.
+The indicated symbol in the function is /
+
+<li> Multiplication function: </li>
+</ul>
+
+<p> The multiplying or the condition of being multiplied and its operation is extended to other numbers according to the multiplication function of integers. An example of multiplication is the following: 10 * 2 = 20. 
+The indicated symbol in the function is *
 
 
 <li>Validator Syntax checker</li>
@@ -31,10 +59,25 @@ This calculator is created to have a simple and plain arithmetic operator using 
 ![image](/docs/new%20checker.PNG)
 
 
-<h2><Strong>Testing</strong></h2>
+<h2><Strong>Testing:</strong></h2>
 
-<p>
-This calculator is created to have it simple and plain arithmetic calculator using the python language and I have tested the operations within the 1 to 4 operational digits and the outcome of it. I have tested the multiplication operation, additional operation,subtration operation and divisional operation using an example number of 15 by 85 and the correct answers pop up one after the other on the request to "Try again ? y/n" on all four of the arithmetic operators. Each time a calculation is executed, a "Try again? (y/n):" question statement is given if you want to continue with a new calculation with a 'y'(Yes) or 'n'(No) feedback. If 'y', the plain calculator will be given a statement below as "Enter digit within the operation:" and if 'n' a statement will also display "Goodbye and have a nice day.", and statement is given "Enter 'e' code to exit:,this last operation will completely end the loop from running with the exit code 'e'. The user can either choose 'y' to continue the plain calculator or 'n' with a goodbye message and to proceed to the exiting of the plain calculator .</p>
+
+
+
+<li>In this arithmetic calculator, the operational functions are displayed and the user will be asked to enter a number within the operation between 1, 2, 3, or 4 showing a black space to input within the operational number.</li>
+</ul>
+<li> I have tested the operations 1, 2, 3 and 4 digits, the multiplication operation, additional operation, subtraction operation, and divisional operation using an example number of 15 by 85, and the correct answers were given as expected.</li>
+<li> I have also tried to input a different number outside the operational digit 1, 2, 3, and 4 and the loops break with a message informing me that the “input is invalid” and asking me to “try again”, as expected.
+
+<li>When I inputted other unexpected words or characters rather than just numbers, 
+the while loop responded by informing me that the “input is invalid, select correct number as specified” and asking me to “try again” as expected.</li>
+
+<li> Each time a calculation is executed, a "Try again? (y/n):" question statement is given if you want to continue with a new calculation with a 'y'(Yes) or 'n'(No) feedback from the user and If 'y'(yes) the plain calculator will be given a 
+statement as "Enter digit within the operation:" and if 'n' a statement will display "Goodbye and have a nice day."</li>
+
+<li>In conclusion: The overall functions and all element work as expected with no bugs.</li>
+
+</ul>
 
 ![image](/docs/testing1.PNG)
 
@@ -51,11 +94,6 @@ This calculator is created to have it simple and plain arithmetic calculator usi
   
   <h2><Strong>Technologies</strong></h2>
 
-  -[GitHub](https://en.wikipedia.org/wiki/Python_(programming_language))
-
- 
- 
-   <h2><Strong>Other</strong></h2>
   
 -[Python](https://github.com/)
 
