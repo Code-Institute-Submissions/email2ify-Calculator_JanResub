@@ -32,9 +32,10 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     """division"""
-    result = num1 / num2
-    return result
-
+    try:
+        return (num1 / num2)
+    except ZeroDivisionError:
+        print("Error: dividing by zero!")
 
 # ------- Global scope-------
 
@@ -84,10 +85,7 @@ def main():
                     pass
                 else:
                     print("Goodbye and have a nice day.")
-
-                break
-
-
+                    break
 # run
 
 
