@@ -80,9 +80,10 @@ the 1,2,3 and 4 digits displayed. </li>
 
 <li>In conclusion: The overall functions and all element work as expected with no bugs.</li>
 
-<h4><Strong>Image from the Heruko page</strong></h4>
+<h4><Strong>Image testing page</strong></h4>
 
-![image](/docs/testing1.PNG)
+
+![image](/docs/new%20pic%20herok.PNG)
 
 
  
