@@ -99,10 +99,10 @@ the 1,2,3 and 4 digits displayed. </li>
   <h2><Strong>Technologies</strong></h2>
 
   
--[Python](https://github.com/)
+-[Python](https://python.org/)
 
  
- -[Heroku](https://github.com/)
+ -[Heroku](https://heroku.com/)
   
  
   
