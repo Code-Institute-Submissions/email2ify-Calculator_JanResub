@@ -65,17 +65,21 @@ The indicated symbol in the function is *
 
 
 <li>In this arithmetic calculator, the operational functions are displayed and I was asked to "Enter a number within the operation: (1/ 2/ 3/ 4)" showing a blank space to input a digit within the operational number.
-The operations are 1, 2, 3 and 4 digits,the multiplication operation, additional operation, subtraction operation, and divisional operation representing 
-the 1,2,3 and 4 digits displayed. </li>
+The operations are 1, 2, 3 and 4 digits, the multiplication operation, additional operation, subtraction operation, and divisional operation representing 
+the 1,2,3 and 4 digits displayed.</li>
 </ul>
 
-<li> I have tested all the operations by inputting one after the other from 1 to 4 to see their functionalities on the blank space shown, and also the statement given "Enter digit within operation:" with a blank space and after inputting one of the preferred operation between 1,2,3 or 4 in the input blank space displayed and as expected, when a number between 1 and 4 is entered, a first statement or respond was given to "Enter first number:" and when I inputted a number,a second statement or respond was given to "Enter the second number" with a input blank space inorder to calculate the correct answer. An example number of 2 for the first input and 3 for the second input for the calculator to calculate the sum of both numbers and the correct answers were given as expected.</li>
+<li> I have tested all the operations by inputting one after the other from 1 to 4 to see their functionalities on the blank space, and also the statement given "Enter digit within operation:" with a blank space and after inputting one of the preferred operation between 1/2/3/4, a respond was given to "Enter first number:" with an input blank space and when I inputted number 1 digit, another respond was given to "Enter the second number:" with an input blank space in which number 3 was inputted, inorder to calculate the correct answer. An example: 1 within the operation, 2 for the first input blank space, 3 for the second input blank space then the calculator to calculate the sum of both numbers and the correct answers were given e.g 2.0 - 3.0 =-1 as expected</li>
 
-<li> I have also tried to input a different number outside the operational digit between 1, 2, 3, and 4 and the operational loop repect itself for me to "Enter digit within operation: 1,2,3,4. And when I entered digit within the preferred operation the loop continue with "Enter first number" when inputted a number, it continue with  a second loop with "Enter second number" to calculate their values.
 
-<li>Each time a calculation is executed, a "Try again? (y/n):" question statement is given if you want to continue with a new calculation with a 'y'(Yes) or 'n'(No) feedback and If 'y'(yes) the calculator will be given a statement as "Enter digit within the operation:" and if 'n' a statement will display "Goodbye and have a nice day."</li>
+<li>Each time a calculation is executed, a "Try again? (y/n):" question statement is given if you want to continue with a new calculation with a 'y'(Yes) or 'n'(No) feedback and If 'y'(yes) the calculator will be given a statement as "Enter first number:" and if 'n'(no) a respond message will display "Goodbye and have a nice day."</li>
 
-<li>I tested to input unexpected characters on the "TRY again? (y/n):", the loop breaks with a message informing me that it is “invalid input” and asking me to “try again? (y/n)”. I have also tested unexpected words or characters rather than just numbers on the input blank space of "Enter first number:" the while loop responded with a message statement by informing me "Invalid input,select numbers as specified" and asking me to "Enter the first number:" again as expected- </li>
+
+<li>I have also tried to input a different number outside the operational digit between 1/2/3/4 and the operational loop repect itself for me to "Enter digit within operation: 1/2/3/4. And when I entered digit within the preferred operation the loop continue with "Enter first number" and when I inputted a number, it continued again with the loop "Enter second number" to calculate their values.
+
+<li>I also tested the ZeroDivision on the division arithmetic function by dividing a number with zero and the function loop breaks with an Error code showing "Error: dividing by zero!.</li>
+
+<li>I tested to input unexpected characters, words or number on the input blank space of "TRY again? (y/n):", the loop breaks with a message informing me that it is “invalid input” and asking me to “try again? (y/n)” But when "y"(yes) is specified the loops continue with a message "Enter first number:" again as expected</li>
 
 
 <li>In conclusion: The overall functions and all element work as expected with no bugs.</li>
