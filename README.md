@@ -85,6 +85,18 @@ The indicated symbol in the function is *
 
 ![image](/docs/new%20checker.PNG)
 
+ <h2><Strong>Technologies</strong></h2>
+
+  
+-[Python](https://python.org/)
+
+ 
+ -[Heroku](https://heroku.com/)
+  
+ 
+  
+  
+
 
 <h2><Strong>Testing:</strong></h2>
 
@@ -127,17 +139,7 @@ the 1,2,3 and 4 digits displayed.</li>
   
   
   
-  <h2><Strong>Technologies</strong></h2>
-
-  
--[Python](https://python.org/)
-
  
- -[Heroku](https://heroku.com/)
-  
- 
-  
-  
    <h2><Strong>Bugs & Fixes</strong></h2>
 
 <ul>
