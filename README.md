@@ -42,6 +42,33 @@ The indicated symbol in the function is /
 <p> The multiplying or the condition of being multiplied and its operation is extended to other numbers according to the multiplication function of integers. An example of multiplication is the following: 10 * 2 = 20. 
 The indicated symbol in the function is *
 
+<li>Addition image</li>
+</ul>
+
+![image](/docs/plus.PNG)
+
+
+<li>Substration image</li>
+</ul>
+
+![image](/docs/substraction.PNG)
+
+
+<li>Division Image</li>
+</ul>
+
+![image](/docs/divide.PNG)
+
+
+<li>Multiplication image</li>
+</ul>
+
+![image](/docs/multiplication.PNG)
+
+
+
+
+
 
 <li>Validator Syntax checker</li>
 </ul>
